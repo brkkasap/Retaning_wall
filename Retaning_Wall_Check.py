@@ -7,7 +7,7 @@ import math
 import plotly.graph_objects as go
 
 # Page Layout Changes
-st.set_page_config(layout="wide",page_icon=":magic_wand:")
+st.set_page_config(layout="wide",page_icon=":magic_wand:",page_title="Retaning Wall Check")
 
 # Sidebar Options
 Title = st.sidebar.title("Classic Retaning Wall Design :magic_wand:")
