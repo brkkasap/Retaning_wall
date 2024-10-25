@@ -1,7 +1,5 @@
 Pandas
 Numpy
 Seaborn
-Datetime
-Time
 Math
 Plotly
