@@ -3,8 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import seaborn as sb
-import datetime as dt
-import time 
 import math
 import plotly.graph_objects as go
 
@@ -23,11 +21,7 @@ Feel free to reach me out 👋
 """)
 
 st.sidebar.markdown("---")  
-current_date = dt.datetime.now().strftime("%m/%d/%Y")
-current_time = dt.datetime.now().strftime("%H:%M:%S")
 
-st.sidebar.write("Date: {}".format(current_date))
-st.sidebar.write("Time: {}".format(current_time))
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Dimensions", "Soil Type" , "Sliding Check" , "Overturning Check" ,"Bearing Capacity Check"])
 
