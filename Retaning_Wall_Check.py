@@ -109,7 +109,7 @@ with tab1:
 
 
     with col2:   
-        st.plotly_chart(fig1)
+        st.plotly_chart(fig1,key="1")
 
 #TAB2   
 with tab2:
@@ -141,7 +141,7 @@ with tab2:
             st.session_state.button5 = False
             st.session_state.button2 = False
     with col2:
-        st.plotly_chart(fig1)
+        st.plotly_chart(fig1,key="2")
 
 #TAB3
 with tab3:
@@ -208,7 +208,7 @@ with tab3:
                 x1=t_total+3.5, y1=(h_total/3)-0.25,  
                 line=dict(color="red", width=4),)
 
-            st.plotly_chart(fig2) 
+            st.plotly_chart(fig2,key="3") 
             
 
 
@@ -342,7 +342,7 @@ with tab4:
                 st.warning("Dimensions are not enough")
             
             fig3 = go.Figure(fig2)
-            st.plotly_chart(fig3)
+            st.plotly_chart(fig3,key="4")
         
 
     with col2:
