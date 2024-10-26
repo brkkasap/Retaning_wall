@@ -14,7 +14,8 @@ hide_github_icon = """
   visibility: hidden;
 }
 """
-#MainMenu {
+#MainMenu 
+{
   visibility: hidden;
 }
 
