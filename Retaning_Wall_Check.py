@@ -9,13 +9,12 @@ import plotly.graph_objects as go
 # Page Layout Changes
 st.set_page_config(layout="wide",page_icon=":magic_wand:",page_title="Retaning Wall Check")
 
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 # Sidebar Options
 Title = st.sidebar.title("Classic Retaning Wall Design :magic_wand:")
