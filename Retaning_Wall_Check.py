@@ -16,7 +16,7 @@ hide_github_icon = """
 """
 #MainMenu 
 {
-  visibility: hidden;
+  visibility: hidden
 }
 
 # Sidebar Options
