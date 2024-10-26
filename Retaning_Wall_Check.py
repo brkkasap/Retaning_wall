@@ -98,10 +98,10 @@ with tab1:
     line_x1 = [p8_x, t_total+1.5]
     line_y1 = [p8_y, 0]
     fig1.add_trace(go.Scatter(x=line_x1, y=line_y1, mode='lines', 
-                         line=dict(color='blue', dash='dash', width=2), name='Bottom of Retaning Wall'))
+                         line=dict(color='green', dash='dash', width=2), name='Bottom of Retaning Wall'))
 
     fig1.add_annotation(x=t_total+1.5, y=0, text="Lower Soil Start Point", showarrow=True, arrowhead=2, ax=20, ay=-30, 
-                   font=dict(color='blue', size=10))
+                   font=dict(color='green', size=10))
     
 
     
