@@ -14,7 +14,9 @@ hide_github_icon = """
   visibility: hidden;
 }
 """
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+#MainMenu {
+  visibility: hidden;
+}
 
 # Sidebar Options
 Title = st.sidebar.title("Classic Retaning Wall Design :magic_wand:")
