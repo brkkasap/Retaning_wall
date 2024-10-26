@@ -9,6 +9,16 @@ import plotly.graph_objects as go
 # Page Layout Changes
 st.set_page_config(layout="wide",page_icon=":magic_wand:",page_title="Retaning Wall Check")
 
+st.markdown(
+        r"""
+        <style>
+        .stAppForkButton {
+                visibility: hidden;
+            }
+        </style>
+        """, unsafe_allow_html=True
+    )
+
 # Sidebar Options
 Title = st.sidebar.title("Classic Retaning Wall Design :magic_wand:")
 Text_sidebar = st.sidebar.markdown("Easiest way to check your retaning wall")
