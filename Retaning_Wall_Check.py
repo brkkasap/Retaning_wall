@@ -46,11 +46,11 @@ with tab1:
     
     with col1:
         #Dimensions of Retaning Wall
-        h1 = st.number_input("Stem height ",value=3.0)
-        h2 = st.number_input("Base height ",value=0.5)
-        t_f = st.number_input ("Foot width ",value=1.5)
-        t_s = st.number_input("Stem width: ",value=0.75)
-        t_t = st.number_input("Toe width: ",value=1.5)
+        h1 = st.number_input("Stem height (m)",value=3.0)
+        h2 = st.number_input("Base height (m)",value=0.5)
+        t_f = st.number_input ("Foot width (m)",value=1.5)
+        t_s = st.number_input("Stem width: (m)",value=0.75)
+        t_t = st.number_input("Toe width: (m)",value=1.5)
 
         # Restart Anaysis Button Configration
         Restart = st.button("Reset Your Analysis")
@@ -381,7 +381,7 @@ with tab4:
                     unsafe_allow_html=True)
                 
                 st.latex(r"""
-                M_r =  ({}) \cdot ({}) )  \,  + \, ( ({}) \cdot ({}) )  \,  + \,  ( ({}) \cdot ({})  \quad = {} \quad kNm/m 
+                M_r =  (({}) \cdot ({}) )  \,  + \, ( ({}) \cdot ({}) )  \,  + \,  ( ({}) \cdot ({})  \quad = {} \quad kNm/m 
                 """.format(round(w_stem,2),round(r_w_stem,2),round(w_base,2),round(r_w_base,2),round(w_soil),round(r_w_soil),round(M_Resisting,2)))
 
                 st.subheader("3. Overturning Safety Factor Check")
